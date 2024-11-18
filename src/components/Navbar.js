@@ -9,7 +9,7 @@ function Navbar() {
                 Matrimonial
             </div>
             <div className='leftsub'>
-                <div><Link to={'/home'}>Home</Link></div>
+                <div><Link to={'/'}>Home</Link></div>
                 <div><Link to={'/profile'}>Profiles</Link></div>
                 <div><Link to={'/register'}>Register</Link> </div>
                 <div><Link to={'/contact'}>Contact us</Link></div>
