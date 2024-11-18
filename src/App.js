@@ -16,7 +16,7 @@ function App() {
      <BrowserRouter>
      <Navbar></Navbar>
      <Routes>
-      <Route path='/home' index Component={Home}></Route>
+      <Route path='/' index Component={Home}></Route>
       <Route path='/login' element={<LoginPage/>}></Route>
       <Route path='/register' Component={RegistrationForm}></Route>
       <Route path='/contact' Component={ContactPage}></Route>
